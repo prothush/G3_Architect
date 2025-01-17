@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", serif;
+}
+/* Reusable Comp */
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.btn-primary{
+    padding: 20px 25px;
+    background: #FF900E;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* Reusable Comp */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0px auto;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;;
+}
+.nav-item{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0px 20px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content .title{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}
+.banner-content .subtitle{
+    text-align: center;
+    margin: 25px 0px;
+}
+.banner-image{
+    margin-top: 50px;
+}
+.banner-image img{
+    width: 100%;
+}
+#team-section{
+    margin-top: 100px;
+}
+.team{
+    display: flex;
+    align-items: center;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.team-images img{
+    width: 100%;
+}
+.team-content{
+    padding-left: 70px;
+}
+.team-content .title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.team-content .quick{
+    font-weight: 500;
+}
+.team-content .q-features{
+    color: #FF900E;
+}
+.team-content .subtitle{
+    margin: 25px 0px;
+}
