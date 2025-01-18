@@ -8,7 +8,7 @@
     .team{
         flex-direction: column;
     }
-    .team-images, .features-section, .facts-card{
+    .team-images, .features-section, .facts-card, .social-platform{
         grid-template-columns: 1fr;
     }
     .team-content, .features-images{
@@ -22,6 +22,10 @@
     .facts-container{
         margin: 0px 20px;
     }
+    .social-platform .platform-item{
+        margin-bottom: 25px;
+    }
+    
 
 }
 /* Medium Devices */
@@ -50,6 +54,12 @@
     }
     .facts-container{
         margin: 0px 20px;
+    }
+    .social-platform .platform-item{
+        margin-bottom: 25px;
+    }
+    .social-platform{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 /* Hide */
