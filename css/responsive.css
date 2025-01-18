@@ -8,16 +8,19 @@
     .team{
         flex-direction: column;
     }
-    .team-images, .features-section{
+    .team-images, .features-section, .facts-card{
         grid-template-columns: 1fr;
     }
     .team-content, .features-images{
-        padding-left: 20px;
+        padding-left: 10px;
         padding-top: 50px;
     }
     .features-btn{
         position: relative;
         margin-left: 0px;
+    }
+    .facts-container{
+        margin: 0px 20px;
     }
 
 }
@@ -26,7 +29,7 @@
     .team{
         flex-direction: column;
     }
-    .team-images{
+    .team-images, .facts-card{
         grid-template-columns: repeat(2, 1fr);
     }
     .team-content, .features-images{
@@ -44,6 +47,9 @@
     .features-btn{
         position: relative;
         margin-left: 0px;
+    }
+    .facts-container{
+        margin: 0px 20px;
     }
 }
 /* Hide */
