@@ -25,6 +25,9 @@
     .social-platform .platform-item{
         margin-bottom: 25px;
     }
+    .features-content{
+        margin: 0px 10px;
+    }
     
 
 }
@@ -42,6 +45,9 @@
     }
     .features-section{
         grid-template-columns: 1fr;
+    }
+    .features-content{
+        margin: 0px 10px;
     }
     .card-body{
         display: grid;
